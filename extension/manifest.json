@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Local LeetCode Saver",
+  "version": "0.1.0",
+  "description": "Save accepted LeetCode solutions and metadata into your local repository.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "https://leetcode.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/problems/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
