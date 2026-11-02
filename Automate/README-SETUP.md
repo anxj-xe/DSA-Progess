@@ -1,6 +1,5 @@
 # Local LeetCode Saver prototype
 
-Copy the `receiver` and `extension` folders into the root of your existing `Coding-Progress` repository.
 
 ## Start the local receiver
 From IntelliJ terminal at the repository root:
