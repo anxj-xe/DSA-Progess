@@ -1,42 +1,54 @@
 # 696. Count Binary Substrings
 
+**Difficulty:** Easy  
+**Problem Link:** [https://leetcode.com/problems/count-binary-substrings/](https://leetcode.com/problems/count-binary-substrings/)
+
+![Difficulty: Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
 ## Submission Stats
 
 | Metric | Value | Percentile |
 | :--- | :--- | :--- |
 | **Language** | `java` | - |
-| **Runtime** | 10 ms | Beats 91.9% |
-| **Memory** | 45.8 MB | Beats 87.7% |
+| **Runtime** | 9 ms | Beats 96.6% |
+| **Memory** | 45.7 MB | Beats 92.2% |
+
+### Tags
+
+`Two Pointers` `String`
 
 ## Problem Description
 
-Given a binary string s, return the number of non-empty substrings that have the same number of 0's and 1's, and all the 0's and all the 1's in these substrings are grouped consecutively.
+<p>Given a binary string <code>s</code>, return the number of non-empty substrings that have the same number of <code>0</code>&#39;s and <code>1</code>&#39;s, and all the <code>0</code>&#39;s and all the <code>1</code>&#39;s in these substrings are grouped consecutively.</p>
 
-Substrings that occur multiple times are counted the number of times they occur.
+<p>Substrings that occur multiple times are counted the number of times they occur.</p>
 
- 
-Example 1:
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Input: s = "00110011"
-Output: 6
-Explanation: There are 6 substrings that have equal number of consecutive 1's and 0's: "0011", "01", "1100", "10", "0011", and "01".
+<pre>
+<strong>Input:</strong> s = &quot;00110011&quot;
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> There are 6 substrings that have equal number of consecutive 1&#39;s and 0&#39;s: &quot;0011&quot;, &quot;01&quot;, &quot;1100&quot;, &quot;10&quot;, &quot;0011&quot;, and &quot;01&quot;.
 Notice that some of these substrings repeat and are counted the number of times they occur.
-Also, "00110011" is not a valid substring because all the 0's (and 1's) are not grouped together.
+Also, &quot;00110011&quot; is not a valid substring because all the 0&#39;s (and 1&#39;s) are not grouped together.
+</pre>
 
+<p><strong class="example">Example 2:</strong></p>
 
-Example 2:
+<pre>
+<strong>Input:</strong> s = &quot;10101&quot;
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> There are 4 substrings: &quot;10&quot;, &quot;01&quot;, &quot;10&quot;, &quot;01&quot; that have equal number of consecutive 1&#39;s and 0&#39;s.
+</pre>
 
-Input: s = "10101"
-Output: 4
-Explanation: There are 4 substrings: "10", "01", "10", "01" that have equal number of consecutive 1's and 0's.
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-
- 
-Constraints:
-
-
-	1 <= s.length <= 105
-	s[i] is either '0' or '1'.
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>s[i]</code> is either <code>&#39;0&#39;</code> or <code>&#39;1&#39;</code>.</li>
+</ul>
 
 ---
 *Captured automatically by [CodeRelay](https://github.com).*
