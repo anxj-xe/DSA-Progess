@@ -5,8 +5,8 @@ class Solution {
         for(int i=0;i<n;i++){
             boolean isUncommon = true;
             for(int j=0;j<n;j++){
-                if(i==j) continue;
-                if(issubseq(strs[i],strs[j])){
+                // if(i==j) continue;
+                if(i!=j && issubseq(strs[i],strs[j])){
                     isUncommon = false;
                     break;
                 }

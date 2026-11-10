@@ -11,7 +11,7 @@
 | :--- | :--- | :--- |
 | **Language** | `java` | - |
 | **Runtime** | 2 ms | Beats 38.2% |
-| **Memory** | 42.6 MB | Beats 64.5% |
+| **Memory** | 42.7 MB | Beats 55.3% |
 
 ### Tags
 
