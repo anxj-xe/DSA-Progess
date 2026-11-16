@@ -10,8 +10,8 @@
 | Metric | Value | Percentile |
 | :--- | :--- | :--- |
 | **Language** | `java` | - |
-| **Runtime** | 5 ms | Beats 19.9% |
-| **Memory** | 41.4 MB | Beats 95.1% |
+| **Runtime** | 4 ms | Beats 86.8% |
+| **Memory** | 41.4 MB | Beats 90.7% |
 
 ### Tags
 
